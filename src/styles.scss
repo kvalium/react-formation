@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+$light: #fafafa;
+
+/*********
+ * Table *
+ *********/
+
+.table {
+  background-color: $light;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  font-weight: unset;
+  padding-right: 10px;
+}
+
+.column1 {
+  width: 20%;
+  padding-left: 40px;
+}
+
+.column2 {
+  width: 20%;
+}
+
+.column3 {
+  width: 20%;
+}
+
+.column4 {
+  width: 20%;
+}
+
+.column5 {
+  width: 20%;
+}
+
+.beautify-table-head th {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.beautify-table-body td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/**********
+ * Header *
+ **********/
+
+.beautify-table {
+  position: relative;
+  padding-top: 60px;
+}
+
+.beautify-table-head {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.beautify-table-body {
+  max-height: 585px;
+  overflow: auto;
+}
