@@ -21,19 +21,19 @@ git clone https://innersource.soprasteria.com/damien.chazoule/react-slideshow.gi
 Installation :
 
 ```
-yarn install
+npm install
 ```
 
 Lancement :
 
 ```
-yarn start
+npm run start
 ```
 
 Packaging :
 
 ```
-yarn build
+npm run build
 npx serve -s build
 ```
 

@@ -7,7 +7,7 @@ const Example = () => (
     <div className="fragment">
       <h3>Composant Parent</h3>
       <pre><code className="hljs" data-trim contentEditable>{`
-  import ChildComponent from './ChildComponent';
+  import { ChildComponent } from './ChildComponent';
 
   class ParentComponent extends Component {
     render() {
@@ -23,16 +23,12 @@ const Example = () => (
     <div className="fragment">
       <h3>Composant Enfant</h3>
       <pre><code className="hljs" data-trim contentEditable>{`
-  export default class ChildComponent extends Component {
-    render() {
-      return(
-        <div>
-          <div>Hello</div>
-          {this.props.children}
-        </div>
-      );
-    }
-  }
+  export const ChildComponent = ({ children }) => (
+    <div>
+      <div>Hello</div>
+      {children}
+    </div>
+  );
       `}</code></pre>
     </div>
   </section>
