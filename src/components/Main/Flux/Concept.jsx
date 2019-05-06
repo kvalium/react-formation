@@ -12,6 +12,7 @@ const Concept = () => (
       <ul>
         <li>Flux</li>
         <li>Fluxxor</li>
+        <li>MobX</li>
         <li><strong>Redux</strong></li>
         <li>Reflux</li>
         <li>Relay</li>

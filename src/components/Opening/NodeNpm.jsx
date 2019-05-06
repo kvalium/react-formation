@@ -12,7 +12,7 @@ const NodeNpm = () => (
       Basé sur le moteur <strong>Chrome V8</strong><br />
       Utilisé en tant que plateforme logicielle<br />
       Contient nativement un serveur Web<br />
-      Dernière version <strong>LTS</strong> : 10.15.0<br />
+      Dernière version <strong>LTS</strong> : 10.15.x<br />
       Gestionnaire de paquets <small>(officiel)</small>
     </p>
   </section>

@@ -8,7 +8,7 @@ const downloadChart = {
     labels: ['Angular', 'React', 'Vue'],
     datasets: [
       {
-        data: [1977310, 5063253, 797242],
+        data: [871143, 4425063, 731023],
         backgroundColor: [hexToRgba('#f44336', 0.5), hexToRgba('#00bcd4', 0.5), hexToRgba('#4caf50', 0.5)],
         borderColor: [hexToRgba('#f44336', 1), hexToRgba('#00bcd4', 1), hexToRgba('#4caf50', 1)]
       }
@@ -41,7 +41,7 @@ class Download extends Component {
         <canvas id="download-chart" style={{ position: 'relative', height: '60vh', width: '100vw' }}></canvas>
         <div className="fragment">
           <br />
-          <span className="blue-grey"><em><small>* 20 Janvier 2019</small></em></span>
+          <span className="blue-grey"><em><small>* 5 Mai 2019</small></em></span>
         </div>
       </section>
     );
