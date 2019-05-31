@@ -43,8 +43,18 @@
  * Slides *
  **********/
 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 section#title img {
   background: rgba(255, 255, 255, 0);
+  animation: App-logo-spin infinite 20s linear;
 }
 
 section#who-am-i img {
