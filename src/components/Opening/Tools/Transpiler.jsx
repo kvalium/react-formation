@@ -6,10 +6,9 @@ const Transpiler = () => (
     <img data-src={babel} alt="Babel" />
     <h2>Transpileur</h2>
     <p>
-      Fusion des projets <strong>6To5</strong> et <strong>ESNext</strong><br />
-      Rétrocompatibilité du code <strong>JavaScript</strong><br />
-      Support des nouveautés ES9 et certaines fonctionnalités ESNext à venir<br />
-      S'intégre facilement avec les <em>Task Runner</em> et les <em>Bundler</em>
+      Transforme le code ES5+ en JS interprétables par les navigateurs actuels et <strong>anciens</strong><small>coucou IE</small><br />
+      Permet d'utiliser dès maintenant les dernières fonctionnalités du langage<br />
+      S'intégre facilement sur les projets
     </p>
   </section>
 );

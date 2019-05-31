@@ -19,7 +19,7 @@ const Tools = () => (
     <DevEnv />
     <Editors />
     <VersionManager />
-    <TaskRunner />
+    {/* <TaskRunner /> */}
     <DepManager />
     <Linter />
     <Design />

@@ -34,7 +34,7 @@ const Editors = () => (
             <tr className="body alt">
               <td className="column1"><strong>Brackets</strong></td>
               <td className="column2">Aperçu du code en direct</td>
-              <td className="column3">Petite communauté et peu d'extension disponible</td>
+              <td className="column3">Petite communauté et peu d'extensions disponible</td>
             </tr>
             <tr className="body">
               <td className="column1"><strong>Sublime Text</strong></td>
@@ -43,8 +43,8 @@ const Editors = () => (
             </tr>
             <tr className="body alt">
               <td className="column1"><strong>Visual Studio Code</strong></td>
-              <td className="column2">Prêt à l'emploi avec notamment le débogueur et Git</td>
-              <td className="column3">Pas autant de fonctionnalités qu'un IDE</td>
+              <td className="column2">Rapide, intégration GIT, beaucoup d'extensions</td>
+              <td className="column3">On cherche encore</td>
             </tr>
           </tbody>
         </table>

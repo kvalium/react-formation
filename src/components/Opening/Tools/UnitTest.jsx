@@ -6,14 +6,14 @@ const UnitTest = () => (
   <section>
     <img data-src={jest} alt="Jest" />
     <img data-src={airbnb} alt="AirBnB" />
-    <h2>Tests Unitaires</h2>
+    <h2>Jest et Enzyme</h2>
+    <h3>Tests unitaires</h3>
     <p>
       La base de la programmation<br />
-      Technique liée à l'approche <strong>Agile</strong><br />
       Tester vos méthodes et vos services<br />
       Gagner du temps dans vos développements
     </p>
-    <p><span className="grey"><strike><em>Tester c'est douter !</em></strike></span></p>
+    <p><span className="grey"><strike>Tester c'est douter, corriger c'est abdiquer !</strike></span></p>
   </section>
 );
 

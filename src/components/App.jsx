@@ -9,14 +9,15 @@ import hljs from 'highlight.js/lib';
 // Slides
 import {
   Title,
-  WhoAmI,
-  WhoAreYou,
-  Summary,
+  // WhoAmI,
+  // WhoAreYou,
+  // Summary,
   RemindersTitle,
   JavaScript,
   EcmaScript,
   Coding,
-  NodeNpm,
+  Node,
+  Npm,
   Tools
 } from './Opening';
 
@@ -78,14 +79,15 @@ export default class App extends Component {
       <div className="reveal">
         <div className="slides">
           <Title />
-          <WhoAmI />
-          <WhoAreYou />
-          <Summary />
-          <RemindersTitle />
+          {/* <WhoAmI />
+          <WhoAreYou /> */}
+          {/* <Summary /> */}
+          <RemindersTitle /> 
           <JavaScript />
           <EcmaScript />
-          <Coding />
-          <NodeNpm />
+          {/* <Coding /> */}
+          <Node />
+          <Npm />
           <Tools />
           <TopicTitle />
           <Intro />

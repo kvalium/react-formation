@@ -7,12 +7,11 @@ const Design = () => (
   <section id="design">
     <img className="clearfix" data-src={less} alt="Less" />
     <img data-src={sass} alt="Sass" />
-    <img data-src={stylus} alt="Stylus" />
-    <h2>CSS</h2>
+    <h2>Pré-processeurs CSS</h2>
     <p>
-      Des feuilles qui ont du style<br />
-      Du <em>design</em> pour vôtre application<br />
-      Choisir entre le <strong><span className="less">Less</span></strong>, le <strong><span className="sass">Sass</span></strong> ou le <strong><span className="stylus">Stylus</span></strong>
+      Facilite l'écriture de feuilles de style<br />
+      Permet d'utiliser des "fonctions" et des boucles<br />
+      Du <em>design</em> pour votre application<br />
     </p>
   </section>
 );
