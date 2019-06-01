@@ -11,7 +11,6 @@ const Design = () => (
     <p>
       Facilite l'écriture de feuilles de style<br />
       Permet d'utiliser des "fonctions" et des boucles<br />
-      Du <em>design</em> pour votre application<br />
     </p>
   </section>
 );

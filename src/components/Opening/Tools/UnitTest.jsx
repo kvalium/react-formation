@@ -7,11 +7,10 @@ const UnitTest = () => (
     <img data-src={jest} alt="Jest" />
     <img data-src={airbnb} alt="AirBnB" />
     <h2>Jest et Enzyme</h2>
-    <h3>Tests unitaires</h3>
     <p>
-      La base de la programmation<br />
-      Tester vos méthodes et vos services<br />
-      Gagner du temps dans vos développements
+      Tests unitaires et de <i>snapshots</i><br />
+      <br />
+      solutions peu à peu remplacées par celle fournie par React : react-test-renderer
     </p>
     <p><span className="grey"><strike>Tester c'est douter, corriger c'est abdiquer !</strike></span></p>
   </section>

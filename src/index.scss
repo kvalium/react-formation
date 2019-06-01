@@ -1,16 +1,40 @@
-$black: #2a2c2e;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+$title-font: 'Quicksand', sans-serif;
+
+
+$react-blue: #61dafb;
+$react-back: #282c34;
+
+$black: $react-back;
 $light: #fafafa;
 $grey: #eee;
 $dark: #212121;
+
 
 /********
  * Core *
  ********/
 
+body {
+  background: $react-back;
+  $color: white;
+}
+
 .reveal {
+  color: white;
+  h1, h2, h3, h4, h5, h6 {
+    &, span {
+      font-family: $title-font;
+      text-transform: inherit;
+      color: $react-blue;
+    }
+  }
+
   .progress {
     background: rgba(0, 0, 0, 0.2);
-    color: $black; 
+    color: $react-blue; 
   }
 
   .pause-overlay {
@@ -55,9 +79,19 @@ $dark: #212121;
  * Slides *
  **********/
 
+ @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 section {
   &#title {
     img {
+      animation: App-logo-spin infinite 20s linear;
       background: rgba(255, 255, 255, 0);
     }
   }

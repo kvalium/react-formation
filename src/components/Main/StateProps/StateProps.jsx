@@ -11,7 +11,7 @@ const StateProps = () => (
   <section>
     <section id="state-props">
       <h1>State & Props</h1>
-      <h3><em>Comment mettre à jour le DOM lorsque les données sont modifiées ?</em></h3>
+      <h4><em>Comment mettre à jour le DOM lorsque les données sont modifiées ?</em></h4>
     </section>
     <State />
     <Props />

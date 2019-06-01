@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
+$body-font: 'Open Sans', sans-serif;
+$code-font: 'Fira Mono', monospace;
 
 $light: #fafafa;
 
+
+.reveal {
+  font-family: $body-font;
+}
+
+code {
+  font-family: $code-font;
+}
 /*********
  * Table *
  *********/
@@ -42,14 +53,14 @@ td {
 }
 
 .beautify-table-head th {
-  font-family: 'Lato', sans-serif;
+  font-family: $body-font;
   font-weight: 700;
   padding-top: 18px;
   padding-bottom: 18px;
 }
 
 .beautify-table-body td {
-  font-family: 'Lato', sans-serif;
+  font-family: $body-font;
   font-weight: 400;
   padding-top: 16px;
   padding-bottom: 16px;

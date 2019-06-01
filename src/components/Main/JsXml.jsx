@@ -18,9 +18,8 @@ const JsXml = () => (
   }
     `}</code></pre>
 
-    <div className="fragment">
-      <br />
-      <span className="blue-grey"><em>Le langage JSX nécessite d'être transpilé</em></span>
+    <div>
+      <em>Le langage JSX nécessite d'être transpilé</em>
     </div>
   </section>
 );
