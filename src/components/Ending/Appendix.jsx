@@ -33,17 +33,9 @@ const Appendix = () => (
               <td className="column1">HackerRank</td>
               <td className="column2 fill">https://research.hackerrank.com/developer-skills/2019/</td>
             </tr>
-            <tr className="body">
-              <td className="column1">Medium</td>
-              <td className="column2 fill">https://medium.com/</td>
-            </tr>
             <tr className="body alt">
               <td className="column1">MDN</td>
               <td className="column2 fill">https://developer.mozilla.org/fr/</td>
-            </tr>
-            <tr className="body">
-              <td className="column1">MrDoomy</td>
-              <td className="column2 fill">https://gitlab.com/mrdoomy/</td>
             </tr>
             <tr className="body alt">
               <td className="column1">RevealJS</td>

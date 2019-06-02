@@ -1,11 +1,10 @@
 import React from 'react';
-import Example from './Example';
+import Imbrication from './Imbrication';
 import Other from './Other';
 
 const Nested = () => (
   <section>
-    <Example />
-    <Other />
+
   </section>
 );
 

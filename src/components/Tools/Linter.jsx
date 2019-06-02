@@ -1,5 +1,5 @@
 import React from 'react';
-import esLint from '../../../assets/eslint.png';
+import esLint from '../../assets/eslint.png';
 
 const Linter = () => (
   <section id="linter">

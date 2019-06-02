@@ -1,5 +1,5 @@
 import React from 'react';
-import bundle from '../../../assets/bundle.png';
+import bundle from '../../assets/bundle.png';
 
 const Transition = () => (
   <section id="transition" data-background={bundle}>

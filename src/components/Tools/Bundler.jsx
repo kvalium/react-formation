@@ -1,5 +1,5 @@
 import React from 'react';
-import webPack from '../../../assets/webpack.png';
+import webPack from '../../assets/webpack.png';
 
 const Bundler = () => (
   <section id="bundler">

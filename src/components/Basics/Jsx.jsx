@@ -1,6 +1,6 @@
 import React from 'react';
 
-const JsXml = () => (
+const Jsx = () => (
   <section id="jsx">
     <h1>JSX</h1>
     <p>Préférez la syntaxe JSX, exemple avec le fichier <code>HelloComponent.jsx</code> :</p>
@@ -24,4 +24,4 @@ const JsXml = () => (
   </section>
 );
 
-export default JsXml;
+export default Jsx;

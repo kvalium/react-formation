@@ -1,5 +1,5 @@
 import React from 'react';
-import git from '../../../assets/git.png';
+import git from '../../assets/git.png';
 
 const VersionManager = () => (
   <section id="version-manager">

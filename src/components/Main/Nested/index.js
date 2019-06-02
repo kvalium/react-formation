@@ -1,3 +1,3 @@
-import Nested from './Nested';
+import Nested from '../Nested';
 
 export default Nested;

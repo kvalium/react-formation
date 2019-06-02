@@ -10,8 +10,5 @@ export {
   OverviewTitle,
   Frameworks,
   Infography,
-  DevWay,
-  Quote,
-  Thank,
   Appendix
 };

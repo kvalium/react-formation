@@ -1,8 +1,8 @@
 import React from 'react';
-import eclipse from '../../../assets/eclipse.png';
-import intelliJ from '../../../assets/intellij.png';
-import netBeans from '../../../assets/netbeans.png';
-import webStorm from '../../../assets/webstorm.png';
+import eclipse from '../../assets/eclipse.png';
+import intelliJ from '../../assets/intellij.png';
+import netBeans from '../../assets/netbeans.png';
+import webStorm from '../../assets/webstorm.png';
 
 const DevEnv = () => (
   <section id="dev-env">

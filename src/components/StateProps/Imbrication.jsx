@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Example = () => (
-  <section id="example">
-    <h1>Imbrication</h1>
+const Imbrication = () => (
+  <section id="imbrication">
+    <h2>Imbrication</h2>
     <p><code>this.props.children</code> permet d'accéder aux élements imbriqués</p>
     <div className="fragment">
       <h3>Composant Parent</h3>
@@ -34,4 +34,4 @@ const Example = () => (
   </section>
 );
 
-export default Example;
+export default Imbrication;

@@ -1,6 +1,6 @@
 import React from 'react';
-import gulp from '../../../assets/gulp.png';
-import grunt from '../../../assets/grunt.png';
+import gulp from '../../assets/gulp.png';
+import grunt from '../../assets/grunt.png';
 
 const TaskRunner = () => (
   <section id="task-runner">

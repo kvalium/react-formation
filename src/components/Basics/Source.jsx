@@ -2,7 +2,7 @@ import React from 'react';
 
 const Source = () => (
   <section id="source">
-    <h2>Index.js</h2>
+    <h1>Implémentation</h1>
     <p>
       Au début de l'application, dans le script principal...<br />
       On appelle <strong>React</strong> afin de rendre le composant dans le DOM !

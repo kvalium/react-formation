@@ -1,11 +1,5 @@
 import React from 'react';
-import State from './State';
-import Props from './Props';
-import Parent from './Parent';
-import Child from './Child';
-import Default from './Default';
-import Typing from './Typing';
-import SecondDemo from './SecondDemo';
+import { State, Props, Parent, Child, Default, Typing, SecondDemo, Imbrication, Other } from '.';
 
 const StateProps = () => (
   <section>
@@ -19,6 +13,8 @@ const StateProps = () => (
     <Child />
     <Default />
     <Typing />
+    <Imbrication />
+    <Other />
     <SecondDemo />
   </section>
 );

@@ -1,8 +1,8 @@
 import React from 'react';
-import atom from '../../../assets/atom.png';
-import brackets from '../../../assets/brackets.png';
-import sublimeText from '../../../assets/sublimetext.png';
-import vsCode from '../../../assets/vscode.png';
+import atom from '../../assets/atom.png';
+import brackets from '../../assets/brackets.png';
+import sublimeText from '../../assets/sublimetext.png';
+import vsCode from '../../assets/vscode.png';
 
 const Editors = () => (
   <section id="editors">

@@ -1,6 +1,5 @@
 import React from 'react';
-import bower from '../../../assets/bower.png';
-import yarn from '../../../assets/yarn.png';
+import yarn from '../../assets/yarn.png';
 
 const DepManager = () => (
   <section id="dep-manager">

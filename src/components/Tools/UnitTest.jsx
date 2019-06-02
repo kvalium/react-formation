@@ -1,6 +1,6 @@
 import React from 'react';
-import jest from '../../../assets/jest.png';
-import airbnb from '../../../assets/airbnb.png';
+import jest from '../../assets/jest.png';
+import airbnb from '../../assets/airbnb.png';
 
 const UnitTest = () => (
   <section>

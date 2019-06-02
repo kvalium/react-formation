@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 
 // RevealJS
 import Reveal from 'reveal.js/js/reveal';
@@ -6,36 +6,21 @@ import Reveal from 'reveal.js/js/reveal';
 // HighLightJS
 import hljs from 'highlight.js/lib';
 
-// Slides
-import {
-  Title,
-  // WhoAmI,
-  // WhoAreYou,
-  // Summary,
-  RemindersTitle,
-  JavaScript,
-  EcmaScript,
-  Coding,
-  Node,
-  Npm,
-  Tools
-} from './Opening';
+import { Opening } from "./Opening";
+import { Reminder } from "./Reminder";
+import { Tools } from "./Tools";
+import { Basics } from "./Basics";
+import { StateProps } from "./StateProps";
 
 import {
-  TopicTitle,
-  Intro,
-  Syntax,
-  JsXml,
-  Init,
-  StateProps,
   Nested,
   Compo,
   LifeCycle,
-  Pure,
+  // Pure,
   Context,
   Arch,
   Router,
-  Flux,
+  // Flux,
   Redux,
   VirtualDom,
   Jest
@@ -45,9 +30,9 @@ import {
   OverviewTitle,
   Frameworks,
   Infography,
-  DevWay,
-  Quote,
-  Thank,
+  // DevWay,
+  // Quote,
+  // Thank,
   Appendix
 } from './Ending';
 
@@ -78,41 +63,34 @@ export default class App extends Component {
     return (
       <div className="reveal">
         <div className="slides">
-          <Title />
-          {/* <WhoAmI />
-          <WhoAreYou /> */}
-          {/* <Summary /> */}
-          <RemindersTitle /> 
-          <JavaScript />
-          <EcmaScript />
-          {/* <Coding /> */}
-          <Node />
-          <Npm />
-          <Tools />
-          <TopicTitle />
-          <Intro />
-          <Syntax />
-          <JsXml />
-          <Init />
-          <StateProps />
-          <Nested />
-          <Compo />
-          <LifeCycle />
-          {/* <Pure /> */}
-          <Context />
-          <Arch />
-          <Router />
-          {/* <Flux /> */}
-          <Redux />
-          <VirtualDom />
-          <Jest />
-          <OverviewTitle />
-          <Frameworks />
-          <Infography />
-          <DevWay />
-          <Quote />
-          <Thank />
-          <Appendix />
+          <Suspense fallback={<div>Loading...</div>}>
+            <Opening />
+            {/* <WhoAmI />
+            <WhoAreYou /> */}
+            {/* <Summary /> */}
+            <Reminder /> 
+            <Tools />
+            <Basics />
+            <StateProps />
+            
+            <LifeCycle />
+            <Compo />
+            {/* <Pure /> */}
+            <Context />
+            <Arch />
+            <Router />
+            {/* <Flux /> */}
+            <Redux />
+            <VirtualDom />
+            <Jest />
+            <OverviewTitle />
+            <Frameworks />
+            <Infography />
+            {/* <DevWay /> */}
+            {/* <Quote /> */}
+            {/* <Thank /> */}
+            <Appendix />
+          </Suspense>
         </div>
       </div>
     );

@@ -2,9 +2,6 @@ import React from 'react';
 import AngularJs from './AngularJs';
 import Angular from './Angular';
 import Vue from './Vue';
-import Ember from './Ember';
-import Meteor from './Meteor';
-import Polymer from './Polymer';
 
 const Frameworks = () => (
   <section>
@@ -14,9 +11,6 @@ const Frameworks = () => (
     <AngularJs />
     <Angular />
     <Vue />
-    <Ember />
-    <Meteor />
-    <Polymer />
   </section>
 );
 

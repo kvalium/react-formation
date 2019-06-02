@@ -13,7 +13,7 @@ import UnitTest from './UnitTest';
 
 const Tools = () => (
   <section>
-    <section id="tools">
+    <section id="tools" className="dark" data-background-color="#282c34">
       <h1>Outils</h1>
     </section>
     <DevEnv />
