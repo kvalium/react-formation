@@ -5,6 +5,7 @@ $title-font: 'Quicksand', sans-serif;
 
 
 $react-blue: #61dafb;
+$react-blue-darker: #3e8da3;
 $react-back: #282c34;
 
 $black: $react-back;
@@ -18,17 +19,24 @@ $dark: #212121;
  ********/
 
 body {
-  background: $react-back;
-  $color: white;
+  background: $light;
+  $color: $dark;
 }
 
+
 .reveal {
-  color: white;
   h1, h2, h3, h4, h5, h6 {
     &, span {
       font-family: $title-font;
       text-transform: inherit;
-      color: $react-blue;
+      color: $react-blue-darker;
+    }
+  }
+  .dark{
+    h1, h2, h3, h4, h5, h6{
+      &, span {
+        color: $react-blue  !important; 
+      }
     }
   }
 
@@ -53,6 +61,7 @@ body {
       border: 0px;
       box-shadow: none;
       height: 240px;
+      background: none; 
     }
   }
 

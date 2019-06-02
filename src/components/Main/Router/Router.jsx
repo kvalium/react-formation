@@ -7,9 +7,9 @@ import reactRouter from '../../../assets/react-router.png';
 
 const Router = () => (
   <section>
-    <section id="router">
+    <section id="router" className="dark" data-background-color="#282c34">
       <img data-src={reactRouter} alt="React Router" />
-      <h2>React Router</h2>
+      <h1>React Router</h1>
     </section>
     <Interest />
     <Routing />

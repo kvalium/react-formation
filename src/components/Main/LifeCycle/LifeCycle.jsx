@@ -7,7 +7,7 @@ import ShouldCompoUpdate from './ShouldCompoUpdate';
 
 const LifeCycle = () => (
   <section>
-    <section id="lifecycle">
+    <section id="lifecycle" className="dark" data-background-color="#282c34">
       <h1>Cycle De Vie</h1>
     </section>
     <Hooks />

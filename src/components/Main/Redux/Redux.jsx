@@ -10,9 +10,9 @@ import redux from '../../../assets/redux.png';
 
 const Redux = () => (
   <section>
-    <section id="redux">
+    <section id="redux" className="dark" data-background-color="#282c34">
       <img data-src={redux} alt="Redux" />
-      <h2>Redux</h2>
+      <h1>Redux</h1>
     </section>
     <WhyThis />
     <Actions />

@@ -9,7 +9,7 @@ import SecondDemo from './SecondDemo';
 
 const StateProps = () => (
   <section>
-    <section id="state-props">
+    <section id="state-props" className="dark" data-background-color="#282c34">
       <h1>State & Props</h1>
       <h4><em>Comment mettre à jour le DOM lorsque les données sont modifiées ?</em></h4>
     </section>

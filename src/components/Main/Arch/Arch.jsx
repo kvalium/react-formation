@@ -4,11 +4,11 @@ import Complex from './Complex';
 
 const Arch = () => (
   <section>
-    <section id="arch">
-      <h1>Architectures Projets</h1>
+    <section id="arch" className="dark" data-background-color="#282c34">
+      <h1>Pattern<br />Conteneur / Présentation</h1>
     </section>
     <Basic />
-    <Complex />
+    {/* <Complex /> */}
   </section>
 );
 

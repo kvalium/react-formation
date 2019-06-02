@@ -98,11 +98,11 @@ export default class App extends Component {
           <Nested />
           <Compo />
           <LifeCycle />
-          <Pure />
+          {/* <Pure /> */}
           <Context />
           <Arch />
           <Router />
-          <Flux />
+          {/* <Flux /> */}
           <Redux />
           <VirtualDom />
           <Jest />
