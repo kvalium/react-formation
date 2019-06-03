@@ -7,12 +7,10 @@ const Jsx = () => (
     <pre><code className="hljs" data-trim contentEditable>{`
   import React, { Component } from "react";
 
-  const example = "Hello World !";
-
   class HelloComponent extends Component {
     render() {
       return(
-        <span>{example}</span>
+        <span>Hello World!</span>
       );
     }
   }

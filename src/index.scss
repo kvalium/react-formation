@@ -35,14 +35,19 @@ body {
   .dark{
     h1, h2, h3, h4, h5, h6{
       &, span {
-        color: $react-blue  !important; 
+        color: $react-blue  !important;
       }
     }
   }
 
+  code.hljs {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 25px;
+    border-radius: 15px;
+  }
+
   .progress {
     background: rgba(0, 0, 0, 0.2);
-    color: $react-blue; 
+    color: $react-blue;
   }
 
   .pause-overlay {
@@ -61,7 +66,7 @@ body {
       border: 0px;
       box-shadow: none;
       height: 240px;
-      background: none; 
+      background: none;
     }
   }
 
@@ -75,12 +80,12 @@ body {
 
   .left {
     width: 50%;
-    float: left; 
+    float: left;
   }
 
   .right {
     width: 50%;
-    float: right; 
+    float: right;
   }
 }
 
@@ -104,20 +109,20 @@ section {
       background: rgba(255, 255, 255, 0);
     }
   }
-  
+
   &#javascript {
     img {
       padding: 0px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     }
   }
-  
+
   &#environment {
     img {
       height: 220px;
     }
   }
-  
+
   &#node {
     img {
       height: 160px;
@@ -159,11 +164,11 @@ section {
       &.beginner {
         top: 580px;
       }
-  
+
       &.proficient {
         top: 430px;
       }
-  
+
       &.expert {
         top: 280px;
       }
@@ -384,39 +389,39 @@ section {
     -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
     -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
     -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
-  
+
     .column1 {
       width: 20%;
     }
-    
+
     .column2 {
       width: 40%;
-  
+
       &.fill {
         width: 80%;
       }
     }
-    
+
     .column3 {
       width: 40%;
     }
-  
+
     th {
       font-size: 28px;
       color: $light;
       line-height: 2.4;
       background-color: $black;
     }
-  
+
     td {
       font-size: 25px;
       color: $dark;
       line-height: 2.4;
     }
-  
+
     .beautify-table-body {
       background-color: $light;
-  
+
       .alt {
         background-color: $grey;
       }

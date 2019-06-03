@@ -1,4 +1,5 @@
 export { default as StateProps } from "./StateProps";
+export { default as Presentation } from "./Presentation";
 export { default as State } from './State';
 export { default as Props } from './Props';
 export { default as Parent } from './Parent';

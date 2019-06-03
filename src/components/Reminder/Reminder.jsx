@@ -1,9 +1,10 @@
 import React from 'react';
 import {
-  JavaScript, 
+  JavaScript,
   EcmaScript,
-  Node, 
-  Npm
+  Node,
+  Npm,
+  Dom
 } from './';
 
 const Reminder = () => (
@@ -13,6 +14,7 @@ const Reminder = () => (
     </section>
     <JavaScript />
     <EcmaScript />
+    <Dom />
     <Node />
     <Npm />
   </section>

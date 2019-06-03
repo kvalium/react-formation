@@ -25,7 +25,7 @@ const Tools = () => (
     <Design />
     <Transpiler />
     <Bundler />
-    <Transition />
+    {/* <Transition /> */}
     <UnitTest />
   </section>
 );

@@ -5,9 +5,9 @@ import Warning from './Warning';
 
 const Context = () => (
   <section>
-    <section id="context">
+    <section id="context" className="dark" data-background-color="#282c34">
       <h1>Context</h1>
-      <h3><em>Comment passer une propriété à un composant imbriqué ?</em></h3>
+      <h4>Comment passer une propriété à un composant imbriqué ?</h4>
     </section>
     <Explanation />
     <Pattern />

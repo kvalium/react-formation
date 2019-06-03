@@ -7,10 +7,10 @@ const Node = () => (
     <img style={{width: 500, height: "auto"}} data-src={nodeJs} alt="NodeJS" />
     <p>
       1<small>er</small> version en 2009<br />
-      Environnement <strong>JavaScript</strong><br />
+      Environnement <strong>JavaScript</strong> côté serveur<br />
       {/* Basé sur le moteur <strong>Chrome V8</strong><br /> */}
       Utilisé en tant que plateforme logicielle<br />
-      Contient nativement un serveur Web<br />
+      {/* Contient nativement un serveur Web<br /> */}
       {/* Dernière version <strong>LTS</strong> : 10.15.x<br /> */}
     </p>
   </section>

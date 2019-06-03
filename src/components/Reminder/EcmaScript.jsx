@@ -11,7 +11,7 @@ const EcmaScript = () => (
     </p>
 
     <h3>L'age sombre</h3>
-    <p>1997 (ES1) 🡆 2009 (ES5)</p>
+    <p>1997 (ES1) ⇨ 2009 (ES5)</p>
     <h3>JS moderne</h3>
     <ul>
       <li>(ES)2015 : ES6 <small>(Babel)</small></li>

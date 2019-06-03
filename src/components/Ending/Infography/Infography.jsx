@@ -10,7 +10,7 @@ import Music from './Music';
 
 const Infography = () => (
   <section>
-    <section id="infography">
+    <section id="infography" className="dark" data-background-color="#282c34">
       <h1>Infographie</h1>
     </section>
     <LangKnown />

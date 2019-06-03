@@ -68,22 +68,22 @@ export default class App extends Component {
             {/* <WhoAmI />
             <WhoAreYou /> */}
             {/* <Summary /> */}
-            <Reminder /> 
+            <Reminder />
             <Tools />
             <Basics />
             <StateProps />
-            
+
             <LifeCycle />
-            <Compo />
+            {/* <Compo /> */}
             {/* <Pure /> */}
-            <Context />
             <Arch />
             <Router />
             {/* <Flux /> */}
+            <Context />
             <Redux />
-            <VirtualDom />
+            {/* <VirtualDom /> */}
             <Jest />
-            <OverviewTitle />
+            {/* <OverviewTitle /> */}
             <Frameworks />
             <Infography />
             {/* <DevWay /> */}

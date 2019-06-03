@@ -6,10 +6,10 @@ import airbnb from '../../../assets/airbnb.png';
 
 const Jest = () => (
   <section>
-    <section id="jest">
+    <section id="jest" className="dark" data-background-color="#282c34">
       <img data-src={jest} alt="Jest" />
       <img data-src={airbnb} alt="AirBnB" />
-      <h2>Jest & Enzyme</h2>
+      <h1>Jest & Enzyme</h1>
     </section>
     <Config />
     <Using />

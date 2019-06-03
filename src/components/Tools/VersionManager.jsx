@@ -8,8 +8,8 @@ const VersionManager = () => (
     <p>
       L'indispensable gestionnaire de versions<br />
       Meilleure visualisation de l'avancement du projet<br />
-      La nécessité de l'historisation des fichiers<br />
-      Travail collaboratif centralisé
+      Utilisation des branches et des <i>merge requests</i><br />
+      Travail collaboratif décentralisé
     </p>
   </section>
 );
