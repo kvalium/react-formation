@@ -1,5 +1,5 @@
 import React from 'react';
-import babel from '../../assets/babel.png';
+import babel from '../../assets/babel.svg';
 
 const Transpiler = () => (
   <section id="transpiler">

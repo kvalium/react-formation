@@ -10,7 +10,7 @@ const Syntax = () => (
   class HelloComponent extends React.Component {
     render() {
       return React.createElement(
-        "span",
+        "h1",
         null,
         "Hello World !"
       );

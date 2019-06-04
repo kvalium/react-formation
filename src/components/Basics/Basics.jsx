@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
-import { Intro, Syntax, Jsx, Source, FirstDemo, VirtualDom } from '.';
+import { Intro, Syntax, Jsx, Source, FirstDemo, VirtualDom, Imbrication, ThinkingReact } from '.';
 
 const Basics = () => (
   <section>
@@ -12,6 +12,8 @@ const Basics = () => (
     <Syntax />
     <Jsx />
     <Source />
+    <Imbrication />
+    <ThinkingReact />
     <VirtualDom />
     <FirstDemo />
   </section>

@@ -8,8 +8,8 @@ const StateProps = () => (
       <h4><em>Comment mettre à jour le DOM lorsque les données sont modifiées ?</em></h4>
     </section>
     <Presentation />
-    <State />
     <Props />
+    <State />
     <Parent />
     <Child />
     <Default />

@@ -10,7 +10,7 @@ const Jsx = () => (
   class HelloComponent extends Component {
     render() {
       return(
-        <span>Hello World!</span>
+        <h1>Hello World!</h1>
       );
     }
   }

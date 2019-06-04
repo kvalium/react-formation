@@ -4,35 +4,36 @@ const Props = () => (
   <section id="props">
     <h2>Props</h2>
     <p>
-      Les propriétés sont immutables<br />
-      N'importe quelle valeur <small>(listes, objets, fonctions, nombres... )</small><br />
-      Données transmises d'un composant parent à un enfant<br />
-      Passer des propriétés comme des attributs d'un élement HTML
+      Les <b>prop</b>riétés passée en entrée à la <b>création</b> du composant.<br />
+      En lecture seule, ne devraient pas être modifiées.
     </p>
     <div className="fragment">
-      <h3>Composant Enfant</h3>
+      <h4>Composant Parent</h4>
       <pre><code className="hljs" data-trim contentEditable>{`
-  export default class ChildComponent extends Component {
+  import PizzaItem from './components/PizzaItem';
+
+  class PizzaList extends Component {
     render() {
       return(
-        <span>{this.props.counter}</span>
+        <PizzaItem name="calzone" price={12} />
       );
     }
   }
       `}</code></pre>
     </div>
     <div className="fragment">
-      <h3>Composant Parent</h3>
+      <h4>Composant Enfant</h4>
       <pre><code className="hljs" data-trim contentEditable>{`
-  import ChildComponent from './ChildComponent';
-
-  class ParentComponent extends Component {
+  export default class PizzaItem extends Component {
     render() {
       return(
-        <ChildComponent counter={1} />
+        <div>
+          <h2>{this.props.name}</h2>
+          <span className="price">{this.props.price}</span>
+        </div>
       );
     }
-  }
+  };
       `}</code></pre>
     </div>
   </section>

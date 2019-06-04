@@ -3,8 +3,8 @@ import React from 'react';
 const Parent = () => (
   <section id="parent">
     <h2>Modèle Courant</h2>
-    <p>Mise à jour des <code>props</code> d'un composant en passant <small>(implicitement)</small> par le parent</p>
-    <div className="fragment">
+    <p>Le <b>state</b> du parent est une <b>propriété</b> de l'enfant.</p>
+    <div>
       <h3>Déclaration</h3>
       <pre><code className="hljs" data-trim contentEditable>{`
   import ChildComponent from './ChildComponent';
@@ -12,16 +12,16 @@ const Parent = () => (
   class ParentComponent extends Component {
     constructor(props) {
       super(props);
-  
+
       this.state = {
         counter: 0
       };
-  
+
       this.incrementCounter = () => {
         this.setState({ counter: this.state.counter + 1 });
       };
     }
-  
+
     render() {
       return(
         <ChildComponent
