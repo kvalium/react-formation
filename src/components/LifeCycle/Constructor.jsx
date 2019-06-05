@@ -3,10 +3,12 @@ import React from "react";
 export default function Constructor(){
   return (
     <section id="constructor">
-      <h2><code>constructor()</code></h2>
+      <h2><code>constructor(props)</code></h2>
+      <h4>montage</h4>
       <br />
       <p>Initialisation du <i>state</i><br />
-      Liaison des méthodes de gestion des événements</p>
+      Liaison des méthodes de gestion des événements (bind)<br />
+      Le seul endroit où l'on manipule directement <code>this.state</code> !</p>
       <pre><code className="hljs" data-trim contentEditable>{`
     class MyComponent extends Component {
       constructor(props) {
@@ -17,7 +19,13 @@ export default function Constructor(){
     }
     `}</code></pre>
     <br />
-    <p>Le seul endroit où l'on manipule directement <code>this.state</code> !</p>
+    <p>Une erreur courante :</p>
+    <pre><code className="hljs" data-trim contentEditable>{`
+    constructor(props) {
+      super(props);
+      this.state = { color: props.color };
+    }
+    `}</code></pre>
     </section>
   )
 }

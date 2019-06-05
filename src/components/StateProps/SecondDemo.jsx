@@ -2,7 +2,7 @@ import React from 'react';
 import marked from 'marked';
 
 const SECOND_DEMO = `
-  # Demo
+  # Démo
 
   ## Counter
 

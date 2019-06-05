@@ -17,11 +17,11 @@ const Parent = () => (
       this.state = {
         counter: 0
       };
-
-      this.incrementCounter = () => {
-        this.setState({ counter: this.state.counter + 1 });
-      };
     }
+    
+    incrementCounter = () => {
+      this.setState({ counter: this.state.counter + 1 });
+    };
 
     render() {
       return(
