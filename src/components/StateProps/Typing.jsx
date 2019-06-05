@@ -3,7 +3,7 @@ import React from 'react';
 const Typing = () => (
   <section id="typing">
     <h2>Typage</h2>
-    <p><code>propTypes</code> permet de définir le type des valeurs relative aux propriétés</p>
+    <p><code>propTypes</code> permet de définir le type des props.</p>
     <pre><code className="hljs" data-trim contentEditable>{`
   import PropTypes from "prop-types";
 
@@ -15,12 +15,13 @@ const Typing = () => (
       );
     }
   }
-  
+
   HelloComponent.propTypes = {
     counter: PropTypes.number.isRequired,
     incrementCounter: PropTypes.func
   };
     `}</code></pre>
+    <a target="_blank" rel="noopener noreferrer" href="https://fr.reactjs.org/docs/typechecking-with-proptypes.html">Documentation</a>
   </section>
 );
 

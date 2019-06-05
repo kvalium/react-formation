@@ -34,7 +34,7 @@ const State = () => (
   }
       `}</code></pre>
     </div>
-    <a href="https://codesandbox.io/s/state-counter-repj6">CodeSandbox</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://codesandbox.io/s/state-counter-repj6">CodeSandbox</a>
   </section>
 );
 

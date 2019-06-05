@@ -1,5 +1,5 @@
 import React from 'react';
-import { State, Props, Parent, Child, Default, Typing, SecondDemo, Imbrication, Other, Presentation } from '.';
+import { State, Props, Parent, Child, Default, Typing, SecondDemo, Imbrication, Other, Presentation, Stateless } from '.';
 
 const StateProps = () => (
   <section>
@@ -10,6 +10,7 @@ const StateProps = () => (
     <Presentation />
     <Props />
     <State />
+    <Stateless />
     <Parent />
     <Child />
     <Default />

@@ -6,13 +6,9 @@ const SECOND_DEMO = `
 
   ## Counter
 
-  Add 1 / Del 1 / RAZ
+  ### CodeSandBox
 
-  ### Code SandBox
-
-  [https://codesandbox.io/s/ql3x09o2z4](https://bit.ly/2LONYah)
-
-  _App 4 ConfJS Made With **React** & &lt;3_
+  [https://codesandbox.io/s/counter-x0b2b](https://codesandbox.io/s/counter-x0b2b)
 `;
 
 const SecondDemo = () => (

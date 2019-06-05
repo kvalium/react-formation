@@ -35,6 +35,7 @@ const Props = () => (
     }
   };
       `}</code></pre>
+      <h6><a target="_blank" rel="noopener noreferrer" href="https://codesandbox.io/s/props-example-bx0n5">CodeSandbox</a></h6>
     </div>
   </section>
 );
