@@ -1,5 +1,5 @@
 import React from 'react';
-import props from '../../../assets/props.png';
+import props from '../../assets/props.png';
 
 const PropsHooks = () => (
   <section id="props-hooks">

@@ -1,5 +1,4 @@
 import Compo from './Compo';
-import LifeCycle from './LifeCycle';
 import Pure from './Pure';
 import Context from './Context';
 import Arch from './Arch';
@@ -11,7 +10,6 @@ import Jest from './Jest';
 
 export {
   Compo,
-  LifeCycle,
   Pure,
   Context,
   Arch,

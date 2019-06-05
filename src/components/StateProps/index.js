@@ -9,4 +9,6 @@ export { default as Typing } from './Typing';
 export { default as Imbrication } from './Imbrication';
 export { default as Other } from './Other';
 export { default as SecondDemo } from './SecondDemo';
+export { default as Events } from "./Events";
+export { default as EventsBind } from "./EventsBind";
 export { default as Stateless } from './Stateless';

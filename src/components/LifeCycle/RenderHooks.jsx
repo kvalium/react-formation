@@ -1,5 +1,5 @@
 import React from 'react';
-import render from '../../../assets/render.png';
+import render from '../../assets/render.png';
 
 const RenderHooks = () => (
   <section id="render-hooks">

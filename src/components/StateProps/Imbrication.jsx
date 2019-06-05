@@ -2,33 +2,38 @@ import React from 'react';
 
 const Imbrication = () => (
   <section id="imbrication">
-    <h2>Imbrication</h2>
-    <p><code>this.props.children</code> permet d'accéder aux élements imbriqués</p>
+    <h2>Délégation de contenu</h2>
+    <p>Certains parents ne connaissent pas leurs enfants à l'avance.<br />
+    Utile pour des blocs génériques : <code>Sidebar</code>, <code>Dialog</code>, etc.</p>
     <div className="fragment">
-      <h3>Composant Parent</h3>
+      <h4>Composant Parent</h4>
       <pre><code className="hljs" data-trim contentEditable>{`
-  import { ChildComponent } from './ChildComponent';
-
-  class ParentComponent extends Component {
-    render() {
-      return(
-        <ChildComponent>
-          <div>World</div>
-        </ChildComponent>
-      );
-    }
+  function TopBar(props) {
+    return (
+      <div className={'topbar topbar-' + props.color}>
+        {props.children}
+      </div>
+    );
   }
       `}</code></pre>
     </div>
     <div className="fragment">
-      <h3>Composant Enfant</h3>
+      <h4>Utilisation</h4>
       <pre><code className="hljs" data-trim contentEditable>{`
-  export const ChildComponent = ({ children }) => (
-    <div>
-      <div>Hello</div>
-      {children}
-    </div>
-  );
+  function PizzeriaTopBar(){
+    return (
+      <TopBar>
+        <div className="left">
+          <img src="logo.png" />
+        </div>
+        <div className="right">
+          <ul>
+            <li>Carte</li>
+          </ul>
+        </div>
+      </TopBar>
+    ); 
+  }
       `}</code></pre>
     </div>
   </section>

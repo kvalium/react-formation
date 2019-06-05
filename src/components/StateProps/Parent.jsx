@@ -2,7 +2,7 @@ import React from 'react';
 
 const Parent = () => (
   <section id="parent">
-    <h2>Modèle Courant</h2>
+    <h2>Modèle Courant 1/2</h2>
     <p>Le <b>state</b> du parent est une <b>propriété</b> de l'enfant.<br />
       Permet de séparer la logique du rendu.</p>
     <div>

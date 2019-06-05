@@ -1,5 +1,5 @@
 import React from 'react';
-import state from '../../../assets/state.png';
+import state from '../../assets/state.png';
 
 const StateHooks = () => (
   <section id="state-hooks">

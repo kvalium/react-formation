@@ -11,11 +11,11 @@ import { Reminder } from "./Reminder";
 import { Tools } from "./Tools";
 import { Basics } from "./Basics";
 import { StateProps } from "./StateProps";
+import { LifeCycle } from "./LifeCycle";
 
 import {
   Nested,
   Compo,
-  LifeCycle,
   // Pure,
   Context,
   Arch,

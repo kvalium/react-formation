@@ -2,11 +2,9 @@ import React from 'react';
 import marked from 'marked';
 
 const SECOND_DEMO = `
-  # Demo 2.0
+  # Demo
 
   ## Counter
-
-  ### CodeSandBox
 
   [https://codesandbox.io/s/counter-x0b2b](https://codesandbox.io/s/counter-x0b2b)
 `;
