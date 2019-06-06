@@ -1,7 +1,6 @@
 import Compo from './Compo';
 import Pure from './Pure';
 import Context from './Context';
-import Arch from './Arch';
 import Router from './Router';
 import Flux from './Flux';
 import Redux from './Redux';
@@ -12,7 +11,6 @@ export {
   Compo,
   Pure,
   Context,
-  Arch,
   Router,
   Flux,
   Redux,

@@ -12,13 +12,13 @@ import { Tools } from "./Tools";
 import { Basics } from "./Basics";
 import { StateProps } from "./StateProps";
 import { LifeCycle } from "./LifeCycle";
+import { Architecture } from "./Architecture";
 
 import {
   Nested,
   Compo,
   // Pure,
   Context,
-  Arch,
   Router,
   // Flux,
   Redux,
@@ -76,7 +76,7 @@ export default class App extends Component {
             <LifeCycle />
             {/* <Compo /> */}
             {/* <Pure /> */}
-            <Arch />
+            <Architecture />
             <Router />
             {/* <Flux /> */}
             <Context />
