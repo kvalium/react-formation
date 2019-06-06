@@ -3,10 +3,10 @@ import React from 'react';
 const Nav = () => (
   <section id="nav">
     <h2>Navigation</h2>
-    <p>La navigation par URL peut ensuite se faire de deux manières :</p>
+    <p>La navigation peut se faire de deux manières :</p>
     <ol className="fragment">
       <li>Dynamiquement via la propriété <code>history</code> étendue par <strong>withRouter</strong></li>
-      <li>Grâce au composant <strong>Link</strong> au sein de la fonction <code>render()</code></li>
+      <li>Grâce aux composants <strong>Link</strong> et <strong>NavLink</strong></li>
     </ol>
     <div className="fragment">
       <pre><code className="hljs" data-trim contentEditable>{`

@@ -1,5 +1,5 @@
 import React from 'react';
-import context from '../../../assets/context.png';
+import context from '../../assets/context.png';
 
 const Warning = () => (
   <section id="warning">

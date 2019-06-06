@@ -3,7 +3,7 @@ import Interest from './Interest';
 import Routing from './Routing';
 import Implementation from './Implementation';
 import Nav from './Nav';
-import reactRouter from '../../../assets/react-router.png';
+import reactRouter from '../../assets/react-router.png';
 
 const Router = () => (
   <section>
@@ -12,8 +12,8 @@ const Router = () => (
       <h1>React Router</h1>
     </section>
     <Interest />
-    <Routing />
     <Implementation />
+    <Routing />
     <Nav />
   </section>
 );

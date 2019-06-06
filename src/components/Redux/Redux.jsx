@@ -6,7 +6,7 @@ import Store from './Store';
 import Loading from './Loading';
 import UseCase from './UseCase';
 import FourthDemo from './FourthDemo';
-import redux from '../../../assets/redux.png';
+import redux from '../../assets/redux.png';
 
 const Redux = () => (
   <section>
