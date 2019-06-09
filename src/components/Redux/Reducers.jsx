@@ -3,32 +3,15 @@ import React from 'react';
 const Reducers = () => (
   <section id="reducers">
     <h2>Reducers</h2>
+    <br />
+    <br />
     <p>
-      L'<em>action</em> trace le changement dans le <strong>store</strong><br />
-      Le <code>reducer</code> se charge d'effectuer la modification
+      Les reducers indiquent <u>comment le state doit changer</u> en réponse à une action envoyée au store.
     </p>
-    <div className="fragment">
-      <pre><code className="hljs" data-trim contentEditable>{`
-  import { CREATE_TASK, COMPLETE_TASK } from './actions';
-
-  /* Initial State */
-  export default function tasks (state = [], action) {
-    switch (action.type) {
-      case CREATE_TASK:
-        return [
-          ...state,
-          action.task
-        ];
-
-      case COMPLETE_TASK:
-        return state.map(task => task.label === action.label ? { ...task, completed: !task.completed } : task);
-
-      default:
-        return state;
-    }
-  }									
-      `}</code></pre>
-    </div>
+    <br />
+    <pre style={{fontSize: '1em', display: 'inline-block', margin: '0 auto', width: '70%'}}><code  className="hljs" data-trim contentEditable>{`
+  ;(previousState, action) => newState	
+    `}</code></pre>
   </section>
 );
 

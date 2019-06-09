@@ -8,36 +8,35 @@ const UseCase = () => (
       Cette connexion est indispensable pour pouvoir dispatcher des <em>actions</em>
     </p>
     <pre><code className="hljs" data-trim contentEditable>{`
-  import React, { Component } from 'react';
+  import React from 'react';
   import { connect } from 'react-redux';
-  import { completeTask } from './actions';
+  import { addToCart } from './actions';
   
-  class HelloComponent extends Component {
-    updateTask = task => {
-      this.props.completeTask(task);
-    };
+  export function Pizzas() { 
+    
+    const { pizzas, addPizzaToCart } = this.props;
 
-    render() {
-      return(
-        <ul>
-          {this.props.tasks.map(task => (
-            <li>{task.label}</li>
-            <button onClick={this.updateTask(task)}>Update</button>
-          )}
-        </ul>
-      );
-    }
+    return(
+      <ul>
+        {pizzas.map(pizza => (
+          <li key={pizza.id}>
+            <h1>{pizza.name}</h1>
+            <button onClick={() => addPizzaToCart(pizza.id)}>Ajouter au Panier</button>
+          </li>
+        ))}
+      </ul>
+    );
   }
 
   const mapStateToProps = state => ({
-    tasks: state.tasks
+    pizzas: state.pizzas.pizzaList // retrieve pizza list from the store, map it to 'pizzas' prop
   });
   
   const mapDispatchToProps = dispatch => ({
-    completeTask: () => dispatch(completeTask())
+    addPizzaToCart: id => dispatch(addToCart(id)) // dispatch shortcut mapping
   });
 
-  export default connect(mapStateToProps, mapDispatchToProps)(HelloComponent);
+  export default connect(mapStateToProps, mapDispatchToProps)(Pizzas);
     `}</code></pre>
   </section>
 );
