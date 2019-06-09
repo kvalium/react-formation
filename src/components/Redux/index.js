@@ -1,3 +1,1 @@
-import Redux from './Redux';
-
-export default Redux;
+export { default as Redux } from "./Redux";

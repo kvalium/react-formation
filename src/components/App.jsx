@@ -13,26 +13,13 @@ import { Basics } from "./Basics";
 import { StateProps } from "./StateProps";
 import { LifeCycle } from "./LifeCycle";
 import { Architecture } from "./Architecture";
+import { Router } from "./Router";
+import { Redux } from "./Redux";
+import { UnitTesting } from "./UnitTesting";
 
 import {
-  Nested,
-  Compo,
-  // Pure,
-  Context,
-  Router,
-  // Flux,
-  Redux,
-  VirtualDom,
-  Jest
-} from './Main';
-
-import {
-  OverviewTitle,
   Frameworks,
   Infography,
-  // DevWay,
-  // Quote,
-  // Thank,
   Appendix
 } from './Ending';
 
@@ -79,10 +66,10 @@ export default class App extends Component {
             <Architecture />
             <Router />
             {/* <Flux /> */}
-            <Context />
+            {/* <Context /> */}
             <Redux />
             {/* <VirtualDom /> */}
-            <Jest />
+            <UnitTesting />
             {/* <OverviewTitle /> */}
             <Frameworks />
             <Infography />

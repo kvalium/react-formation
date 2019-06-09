@@ -3,7 +3,7 @@ import React from "react";
 export default function Intro(){
   return(
     <section id="intro-lifecycle">
-      <h1><a href="http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/">Diagramme des méthodes</a></h1>
+      <a href="http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/"><h1>Diagramme des méthodes</h1><br /><p>http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/</p></a>
     </section>
   )
 }
