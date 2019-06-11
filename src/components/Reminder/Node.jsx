@@ -1,6 +1,5 @@
 import React from 'react';
 import nodeJs from '../../assets/nodejs.png';
-import npm from '../../assets/npm.png';
 
 const Node = () => (
   <section id="node">
@@ -8,10 +7,7 @@ const Node = () => (
     <p>
       1<small>er</small> version en 2009<br />
       Environnement <strong>JavaScript</strong> côté serveur<br />
-      {/* Basé sur le moteur <strong>Chrome V8</strong><br /> */}
       Utilisé en tant que plateforme logicielle<br />
-      {/* Contient nativement un serveur Web<br /> */}
-      {/* Dernière version <strong>LTS</strong> : 10.15.x<br /> */}
     </p>
   </section>
 );

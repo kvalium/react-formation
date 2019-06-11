@@ -1,9 +1,9 @@
 import React from 'react';
-import npm from '../../assets/npm.png';
+import npmLogo from '../../assets/npm.png';
 
 const Npm = () => (
   <section id="npm">
-    <img style={{width: 300, height: "auto"}} data-src={npm} alt="NPM" />
+    <img style={{width: 300, height: "auto"}} data-src={npmLogo} alt="NPM" />
     <div>
       <small>
         <cite>"Every company with a website uses npm, from small development shops to the largest enterprises in the world."</cite>

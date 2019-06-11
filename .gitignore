@@ -58,5 +58,3 @@ typings/
 # DotEnv Environment Variables File
 .env
 
-# Lock File
-yarn.lock

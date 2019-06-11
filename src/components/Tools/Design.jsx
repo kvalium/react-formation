@@ -1,7 +1,6 @@
 import React from 'react';
 import less from '../../assets/less.png';
 import sass from '../../assets/sass.png';
-import stylus from '../../assets/stylus.png';
 
 const Design = () => (
   <section id="design">
