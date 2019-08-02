@@ -9,7 +9,13 @@ Support de présentation pour le framework **React**
 ### warmup
 https://codesandbox.io/s/js-warmup-yn7po
 
-### sources
-https://drive.google.com/open?id=16XR-j8IMBnvcDaIy4lFfKsDTbafo1Uo9
+### maquettes HTML / CSS
+https://drive.google.com/file/d/18RjpX_2Bfp3-S-FZHJcfNr0XJB-thMbE/view
+
+### squelette
+https://codesandbox.io/s/starter-mer4i
+
+### résultat
+https://z7715.csb.app
 
 Merci à [MrDoomy](https://github.com/MrDoomy) pour le support original :)
