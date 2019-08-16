@@ -16,6 +16,6 @@ https://drive.google.com/file/d/18RjpX_2Bfp3-S-FZHJcfNr0XJB-thMbE/view
 https://codesandbox.io/s/starter-mer4i
 
 ### résultat
-https://z7715.csb.app
+https://wd9ix.csb.app/#/
 
 Merci à [MrDoomy](https://github.com/MrDoomy) pour le support original :)
