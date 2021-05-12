@@ -5,7 +5,7 @@
   "author": "Julien Monchany <julien.monchany@gmail.com>",
   "homepage": "https://kvalium.github.io/react-formation",
   "dependencies": {
-    "chart.js": "^2.8.0",
+    "chart.js": "^2.9.4",
     "gh-pages": "^2.0.1",
     "highlight.js": "^9.15.6",
     "marked": "^0.6.2",
